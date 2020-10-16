@@ -1,0 +1,2107 @@
+EngDebug info:
+    Image build time: 180601_1514
+    Software Version: 7.281.6
+    CFE Version: 7.281
+    Kernel Version: 2.6.30
+Board ID: F@ST1704N
+    Serial Number: N71519550015085
+    Hardware version: FAST1704N V1.0 (NAM)
+    Customer Name: NONE
+    ADSL Physical version: A2pG038i.d25b
+    Wireless version: 5.100.138.2008.cpe4.12L06B.4
+
+PSI config:
+<?xml version="1.0"?>
+<DslCpeConfig version="3.0">
+  <InternetGatewayDevice>
+    <LANDeviceNumberOfEntries>1</LANDeviceNumberOfEntries>
+    <WANDeviceNumberOfEntries>1</WANDeviceNumberOfEntries>
+    <DeviceInfo>
+      <Manufacturer>Sagem</Manufacturer>
+      <ManufacturerOUI>001556</ManufacturerOUI>
+      <ProductClass>F@ST1704N</ProductClass>
+      <FirstUseDate>0001-01-01T00:00:00Z</FirstUseDate>
+      <VendorConfigFileNumberOfEntries>0</VendorConfigFileNumberOfEntries>
+    </DeviceInfo>
+    <X_BROADCOM_COM_SyslogCfg>
+      <Status>Enabled</Status>
+      <LocalDisplayLevel>Debug</LocalDisplayLevel>
+    </X_BROADCOM_COM_SyslogCfg>
+    <X_BROADCOM_COM_LoginCfg>
+      <SupportPassword>VzFuZHN0cjNhbTQ1YmMyMAA=</SupportPassword>
+      <UserPassword>d2luZHN0cmVhbXVzZXIA</UserPassword>
+    </X_BROADCOM_COM_LoginCfg>
+    <X_BROADCOM_COM_AppCfg>
+      <Tr69cCfg>
+        <ConnectionRequestAuthentication>FALSE</ConnectionRequestAuthentication>
+      </Tr69cCfg>
+      <UpnpCfg>
+        <Enable>FALSE</Enable>
+      </UpnpCfg>
+      <DnsProxyCfg>
+        <Redirector>1</Redirector>
+      </DnsProxyCfg>
+    </X_BROADCOM_COM_AppCfg>
+    <X_BROADCOM_COM_EthernetSwitch>
+      <NumberOfVirtualPorts>4</NumberOfVirtualPorts>
+      <EnableVirtualPorts>TRUE</EnableVirtualPorts>
+      <IfName>(null)</IfName>
+    </X_BROADCOM_COM_EthernetSwitch>
+    <ManagementServer>
+      <URL>https://hdm.windstream.com/cwmpWeb/CPEMgt</URL>
+      <Username>Windstream</Username>
+      <Password>Windstream</Password>
+      <PeriodicInformEnable>TRUE</PeriodicInformEnable>
+      <PeriodicInformInterval>86400</PeriodicInformInterval>
+      <PeriodicInformTime>1970-01-01T00:00:38+00:00</PeriodicInformTime>
+      <ConnectionRequestURL notification="2">NULL</ConnectionRequestURL>
+      <X_001556_GardenDomainWhiteList>(null)</X_001556_GardenDomainWhiteList>
+    </ManagementServer>
+    <Time>
+      <Enable>TRUE</Enable>
+      <NTPServer1>clock.nyc.he.net</NTPServer1>
+      <NTPServer2>clock.via.net</NTPServer2>
+      <LocalTimeZone>-05:00</LocalTimeZone>
+      <LocalTimeZoneName>Eastern Time</LocalTimeZoneName>
+      <DaylightSavingsStart>1970-01-01T00:33:22+00:00</DaylightSavingsStart>
+      <DaylightSavingsEnd>1970-01-01T00:33:22+00:00</DaylightSavingsEnd>
+    </Time>
+    <Layer2Bridging>
+      <BridgeNumberOfEntries>1</BridgeNumberOfEntries>
+      <FilterNumberOfEntries>8</FilterNumberOfEntries>
+      <MarkingNumberOfEntries>0</MarkingNumberOfEntries>
+      <AvailableInterfaceNumberOfEntries>8</AvailableInterfaceNumberOfEntries>
+      <Bridge instance="1">
+        <BridgeKey>0</BridgeKey>
+        <BridgeEnable>TRUE</BridgeEnable>
+        <BridgeName>Default</BridgeName>
+      </Bridge>
+      <Bridge nextInstance="2" ></Bridge>
+      <Filter instance="1">
+        <FilterKey>1</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>1</FilterInterface>
+      </Filter>
+      <Filter instance="2">
+        <FilterKey>2</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>2</FilterInterface>
+      </Filter>
+      <Filter instance="3">
+        <FilterKey>3</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>3</FilterInterface>
+      </Filter>
+      <Filter instance="4">
+        <FilterKey>4</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>4</FilterInterface>
+      </Filter>
+      <Filter instance="5">
+        <FilterKey>5</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>5</FilterInterface>
+      </Filter>
+      <Filter instance="6">
+        <FilterKey>6</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>6</FilterInterface>
+      </Filter>
+      <Filter instance="7">
+        <FilterKey>7</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterInterface>7</FilterInterface>
+      </Filter>
+      <Filter instance="8">
+        <FilterKey>8</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterInterface>8</FilterInterface>
+      </Filter>
+      <Filter nextInstance="9" ></Filter>
+      <AvailableInterface instance="1">
+        <AvailableInterfaceKey>1</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="2">
+        <AvailableInterfaceKey>2</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="3">
+        <AvailableInterfaceKey>3</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="4">
+        <AvailableInterfaceKey>4</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="5">
+        <AvailableInterfaceKey>5</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="6">
+        <AvailableInterfaceKey>6</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="7">
+        <AvailableInterfaceKey>7</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="8">
+        <AvailableInterfaceKey>8</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface nextInstance="9" ></AvailableInterface>
+    </Layer2Bridging>
+    <QueueManagement>
+      <Enable>TRUE</Enable>
+      <ClassificationNumberOfEntries>0</ClassificationNumberOfEntries>
+      <AppNumberOfEntries>0</AppNumberOfEntries>
+      <FlowNumberOfEntries>0</FlowNumberOfEntries>
+      <PolicerNumberOfEntries>0</PolicerNumberOfEntries>
+      <QueueNumberOfEntries>32</QueueNumberOfEntries>
+      <Queue instance="1">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="2">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="3">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="4">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="5">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="6">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="7">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="8">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="9">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="10">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="11">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="12">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="13">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="14">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="15">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="16">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="17">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="18">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="19">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="20">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="21">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="22">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="23">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="24">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="25">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="26">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="27">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="28">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="29">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="30">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="31">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="32">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue nextInstance="33" ></Queue>
+    </QueueManagement>
+    <LANDevice instance="1">
+      <LANEthernetInterfaceNumberOfEntries>4</LANEthernetInterfaceNumberOfEntries>
+      <LANUSBInterfaceNumberOfEntries>0</LANUSBInterfaceNumberOfEntries>
+      <LANWLANConfigurationNumberOfEntries>1</LANWLANConfigurationNumberOfEntries>
+      <X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries>0</X_BROADCOM_COM_LANMocaInterfaceNumberOfEntries>
+      <LANHostConfigManagement>
+        <DHCPServerEnable>TRUE</DHCPServerEnable>
+        <MinAddress>192.168.254.1</MinAddress>
+        <MaxAddress>192.168.254.253</MaxAddress>
+        <IPRouters>192.168.254.254</IPRouters>
+        <DHCPLeaseTime>235926000</DHCPLeaseTime>
+        <IPInterfaceNumberOfEntries>1</IPInterfaceNumberOfEntries>
+        <IPInterface instance="1">
+          <Enable>TRUE</Enable>
+          <IPInterfaceIPAddress>192.168.254.254</IPInterfaceIPAddress>
+          <X_BROADCOM_COM_IfName>br0</X_BROADCOM_COM_IfName>
+        </IPInterface>
+        <IPInterface nextInstance="2" ></IPInterface>
+      </LANHostConfigManagement>
+      <X_BROADCOM_COM_IPv6LANHostConfigManagement>
+        <IPv6InterfaceNumberOfEntries>0</IPv6InterfaceNumberOfEntries>
+        <X_BROADCOM_COM_MldSnoopingConfig>
+          <Enable>FALSE</Enable>
+        </X_BROADCOM_COM_MldSnoopingConfig>
+      </X_BROADCOM_COM_IPv6LANHostConfigManagement>
+      <LANEthernetInterfaceConfig instance="1">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth0</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="2">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth1</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="3">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth2</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="4">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth3</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig nextInstance="5" ></LANEthernetInterfaceConfig>
+      <WLANConfiguration instance="1">
+        <MaxBitRate>144</MaxBitRate>
+        <SSID>WIN_bc20</SSID>
+        <BeaconType>11i</BeaconType>
+        <WEPKeyIndex>1</WEPKeyIndex>
+        <KeyPassphrase>NOS</KeyPassphrase>
+        <BasicEncryptionModes>None</BasicEncryptionModes>
+        <BasicAuthenticationMode>None</BasicAuthenticationMode>
+        <WPAEncryptionModes>TKIPandAESEncryption</WPAEncryptionModes>
+        <IEEE11iEncryptionModes>TKIPandAESEncryption</IEEE11iEncryptionModes>
+        <IEEE11iAuthenticationMode>PSKAuthentication</IEEE11iAuthenticationMode>
+        <BasicDataTransmitRates>54</BasicDataTransmitRates>
+        <OperationalDataTransmitRates>NOS</OperationalDataTransmitRates>
+        <RadioEnabled>TRUE</RadioEnabled>
+        <LocationDescription>NOS</LocationDescription>
+        <RegulatoryDomain>US</RegulatoryDomain>
+        <DeviceOperationMode>InfrastructureAccessPoint</DeviceOperationMode>
+        <PeerBSSID>NOS</PeerBSSID>
+        <AuthenticationServiceMode>NOS</AuthenticationServiceMode>
+        <X_BROADCOM_COM_HideSSID>FALSE</X_BROADCOM_COM_HideSSID>
+        <X_BROADCOM_COM_GuestSSID>wl0_Guest1</X_BROADCOM_COM_GuestSSID>
+        <X_BROADCOM_COM_GuestHiden>FALSE</X_BROADCOM_COM_GuestHiden>
+        <X_BROADCOM_COM_GuestIsolateClients>FALSE</X_BROADCOM_COM_GuestIsolateClients>
+        <X_BROADCOM_COM_GuestMaxClients>50</X_BROADCOM_COM_GuestMaxClients>
+        <X_BROADCOM_COM_Guest1SSID>wl0_Guest2</X_BROADCOM_COM_Guest1SSID>
+        <X_BROADCOM_COM_Guest1Enable>FALSE</X_BROADCOM_COM_Guest1Enable>
+        <X_BROADCOM_COM_Guest1Hiden>FALSE</X_BROADCOM_COM_Guest1Hiden>
+        <X_BROADCOM_COM_Guest1IsolateClients>FALSE</X_BROADCOM_COM_Guest1IsolateClients>
+        <X_BROADCOM_COM_Guest1MaxClients>50</X_BROADCOM_COM_Guest1MaxClients>
+        <X_BROADCOM_COM_Guest2SSID>wl0_Guest3</X_BROADCOM_COM_Guest2SSID>
+        <X_BROADCOM_COM_Guest2Enable>FALSE</X_BROADCOM_COM_Guest2Enable>
+        <X_BROADCOM_COM_Guest2Hiden>FALSE</X_BROADCOM_COM_Guest2Hiden>
+        <X_BROADCOM_COM_Guest2IsolateClients>FALSE</X_BROADCOM_COM_Guest2IsolateClients>
+        <X_BROADCOM_COM_Guest2MaxClients>50</X_BROADCOM_COM_Guest2MaxClients>
+        <AssociatedDevice instance="19">
+          <X_BROADCOM_COM_Authorized>1</X_BROADCOM_COM_Authorized>
+          <X_BROADCOM_COM_Ssid>WIN_bc20</X_BROADCOM_COM_Ssid>
+          <X_BROADCOM_COM_Ifcname>wl0</X_BROADCOM_COM_Ifcname>
+        </AssociatedDevice>
+        <AssociatedDevice instance="20">
+          <X_BROADCOM_COM_Ssid>wl0_Guest1</X_BROADCOM_COM_Ssid>
+          <X_BROADCOM_COM_Ifcname>wl0.1</X_BROADCOM_COM_Ifcname>
+        </AssociatedDevice>
+        <AssociatedDevice nextInstance="21" ></AssociatedDevice>
+        <WEPKey instance="1">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="2">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="3">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="4">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey nextInstance="5" ></WEPKey>
+        <PreSharedKey instance="1">
+          <PreSharedKey>ABCDEF23</PreSharedKey>
+        </PreSharedKey>
+        <PreSharedKey nextInstance="2" ></PreSharedKey>
+        <X_BROADCOM_COM_WlanAdapter>
+          <WlBaseCfg>
+            <WlPhyType>n</WlPhyType>
+            <WlCoreRev>30</WlCoreRev>
+            <WlFrameBurst>on</WlFrameBurst>
+            <WlCsScanTimer>360</WlCsScanTimer>
+            <WlVer>5.100.138.2008.cpe4.12L06B.4</WlVer>
+            <WlAburnSupported>1</WlAburnSupported>
+            <WlAmpduSupported>1</WlAmpduSupported>
+            <WlWmeSupported>1</WlWmeSupported>
+            <WlWmfSupported>1</WlWmfSupported>
+          </WlBaseCfg>
+          <WlStaticWdsCfg instance="1">
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="2">
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="3">
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="4">
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg nextInstance="5" ></WlStaticWdsCfg>
+          <WlVirtIntfCfg instance="1">
+            <WlIdx>0</WlIdx>
+            <WlSsid>WIN_bc20</WlSsid>
+            <WlWpaPsk>ahgcemgm</WlWpaPsk>
+            <WlWpa>tkip+aes</WlWpa>
+            <WlAuthMode>psk2</WlAuthMode>
+            <WlWpaGTKRekey>3600</WlWpaGTKRekey>
+            <WlEnableWmf>1</WlEnableWmf>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+            <WlWpsCfg>
+              <Wsc_mode>enabled</Wsc_mode>
+            </WlWpsCfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="2">
+            <WlSsid>wl0_Guest1</WlSsid>
+            <WlIfcname>wl0.1</WlIfcname>
+            <WlWpaPsk></WlWpaPsk>
+            <WlWpa>tkip+aes</WlWpa>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="3">
+            <WlIdx>2</WlIdx>
+            <WlSsid>wl0_Guest2</WlSsid>
+            <WlIfcname>wl0.2</WlIfcname>
+            <WlWpaPsk></WlWpaPsk>
+            <WlWpa>tkip+aes</WlWpa>
+            <WlEnblSsid>0</WlEnblSsid>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="4">
+            <WlIdx>3</WlIdx>
+            <WlSsid>wl0_Guest3</WlSsid>
+            <WlIfcname>wl0.3</WlIfcname>
+            <WlWpaPsk></WlWpaPsk>
+            <WlWpa>tkip+aes</WlWpa>
+            <WlEnblSsid>0</WlEnblSsid>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg nextInstance="5" ></WlVirtIntfCfg>
+        </X_BROADCOM_COM_WlanAdapter>
+      </WLANConfiguration>
+      <WLANConfiguration nextInstance="2" ></WLANConfiguration>
+      <Hosts>
+        <Host nextInstance="5" ></Host>
+      </Hosts>
+    </LANDevice>
+    <LANDevice nextInstance="2" ></LANDevice>
+    <WANDevice instance="1">
+      <WANConnectionNumberOfEntries>0</WANConnectionNumberOfEntries>
+      <WANCommonInterfaceConfig>
+        <WANAccessType>DSL</WANAccessType>
+      </WANCommonInterfaceConfig>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="1">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="2">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="3">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="4">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" ></X_BROADCOM_COM_XTM_Interface_Stats>
+      <WANDSLInterfaceConfig>
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_ADSL2_AnnexM>TRUE</X_BROADCOM_COM_ADSL2_AnnexM>
+        <X_BROADCOM_COM_SRA>On</X_BROADCOM_COM_SRA>
+      </WANDSLInterfaceConfig>
+    </WANDevice>
+    <WANDevice instance="2">
+      <WANConnectionNumberOfEntries>0</WANConnectionNumberOfEntries>
+      <WANCommonInterfaceConfig>
+        <WANAccessType>DSL</WANAccessType>
+      </WANCommonInterfaceConfig>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="1">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="2">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="3">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="4">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" ></X_BROADCOM_COM_XTM_Interface_Stats>
+      <WANDSLInterfaceConfig>
+        <Enable>TRUE</Enable>
+        <LinkEncapsulationUsed>G.992.3_Annex_K_PTM</LinkEncapsulationUsed>
+      </WANDSLInterfaceConfig>
+    </WANDevice>
+    <WANDevice instance="3">
+      <WANConnectionNumberOfEntries>0</WANConnectionNumberOfEntries>
+      <WANCommonInterfaceConfig>
+        <WANAccessType>Ethernet</WANAccessType>
+      </WANCommonInterfaceConfig>
+    </WANDevice>
+    <WANDevice nextInstance="2" ></WANDevice>
+    <Layer3Forwarding>
+      <ForwardNumberOfEntries>0</ForwardNumberOfEntries>
+    </Layer3Forwarding>
+    <X_BROADCOM_COM_IPv6Layer3Forwarding>
+      <ForwardNumberOfEntries>0</ForwardNumberOfEntries>
+    </X_BROADCOM_COM_IPv6Layer3Forwarding>
+    <X_BROADCOM_COM_CertificateCfg instance="2">
+      <Name>SHA1-256</Name>
+      <Subject>C=SE/O=AddTrust AB/OU=AddTrust External TTP Network/CN=AddTrust External CA Root</Subject>
+      <Type>ca</Type>
+      <Content>-----BEGIN CERTIFICATE-----
+MIIENjCCAx6gAwIBAgIBATANBgkqhkiG9w0BAQUFADBvMQswCQYDVQQGEwJTRTEU
+MBIGA1UEChMLQWRkVHJ1c3QgQUIxJjAkBgNVBAsTHUFkZFRydXN0IEV4dGVybmFs
+IFRUUCBOZXR3b3JrMSIwIAYDVQQDExlBZGRUcnVzdCBFeHRlcm5hbCBDQSBSb290
+MB4XDTAwMDUzMDEwNDgzOFoXDTIwMDUzMDEwNDgzOFowbzELMAkGA1UEBhMCU0Ux
+FDASBgNVBAoTC0FkZFRydXN0IEFCMSYwJAYDVQQLEx1BZGRUcnVzdCBFeHRlcm5h
+bCBUVFAgTmV0d29yazEiMCAGA1UEAxMZQWRkVHJ1c3QgRXh0ZXJuYWwgQ0EgUm9v
+dDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALf3GjPm8gAELTngTlvt
+H7xsD821+iO2zt6bETOXpClMfZOfvUq8k+0DGuOPz+VtUFrWlymUWoCwSXrbLpX9
+uMq/NzgtHj6RQa1wVsfwTz/oMp50ysiQVOnGXw94nZpAPA6sYapeFI+eh6FqUNzX
+mk6vBbOmcZSccbNQYArHE504B4YCqOmoaSYYkKtMsE8jqzpPhNjfzp/haW+710LX
+a0Tkx63ubUFfclpxCDezeWWkWaCUN/cALw3CknLa0Dhy2xSoRcRdKn23tNbE7qzN
+E0S3ySvdQwAl+mG5aWpYIxG3pzOPVnVZ9c0p10a3CitlttNCbxWyuHv77+ldU9U0
+WicCAwEAAaOB3DCB2TAdBgNVHQ4EFgQUrb2YejS0Jvf6xCZU7wO94CTLVBowCwYD
+VR0PBAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wgZkGA1UdIwSBkTCBjoAUrb2YejS0
+Jvf6xCZU7wO94CTLVBqhc6RxMG8xCzAJBgNVBAYTAlNFMRQwEgYDVQQKEwtBZGRU
+cnVzdCBBQjEmMCQGA1UECxMdQWRkVHJ1c3QgRXh0ZXJuYWwgVFRQIE5ldHdvcmsx
+IjAgBgNVBAMTGUFkZFRydXN0IEV4dGVybmFsIENBIFJvb3SCAQEwDQYJKoZIhvcN
+AQEFBQADggEBALCb4IUlwtYj4g+WBpKdQZic2YR5gdkeWxQHIzZlj7DYd7usQWxH
+YINRsPkyPef89iYTx4AWpb9a/IfPeHmJIZriTAcKhjW88t5RxNKWt9x+Tu5w/Rw5
+6wwCURQtjr0W4MHfRnXnJK3s9EK0hZNwEGe6nQY1ShjTK3rMUUKhemPR5ruhxSvC
+Nr4TDea9Y355e6cJDUCrat2PisP29owaQgVR1EX1n6diIWgVIEM8med8vSTYqZEX
+c4g/VhsxOBi0cQ+azcgOno4uG+GMmIPLHzHxREzGBHNJdmAPx/i9F4BrLunMTA5a
+mnkPIAou1Z5jJh5VkpTYghdae9C8x49OhgQ=
+-----END CERTIFICATE-----</Content>
+    </X_BROADCOM_COM_CertificateCfg>
+    <X_BROADCOM_COM_CertificateCfg nextInstance="3" ></X_BROADCOM_COM_CertificateCfg>
+    <X_SKY_COM_FUS>
+      <DailyChecksCount>0</DailyChecksCount>
+      <StatusHost>NULL</StatusHost>
+      <StatusPath>NULL</StatusPath>
+      <CurrentDate>NULL</CurrentDate>
+      <UpgradePerformed>FALSE</UpgradePerformed>
+    </X_SKY_COM_FUS>
+    <X_SAGEM_COM>
+      <LanguageId>0</LanguageId>
+      <ConfigLock>TRUE</ConfigLock>
+      <ConfigId>F1704N_WS_6.conf</ConfigId>
+      <IgmpVersion>2</IgmpVersion>
+      <EnableAutoDetect>TRUE</EnableAutoDetect>
+      <DefaultAFTR>NULL</DefaultAFTR>
+      <SystemIniCFG>
+        <PPPDR>0</PPPDR>
+        <AllowWebFiles>.</AllowWebFiles>
+      </SystemIniCFG>
+      <AutoDetectCfg>
+        <NumofAutoGroup>1</NumofAutoGroup>
+        <SaveLastResult>TRUE</SaveLastResult>
+        <AutoDetectGroup instance="1">
+          <NumofPvc>4</NumofPvc>
+          <AutoDetectPvcCfg instance="1">
+            <Priority>1</Priority>
+            <Layer2Config>?atmVpi=0&amp;atmVci=35&amp;portId=0&amp;connMode=1&amp;linkType=EoA&amp;encapMode=0&amp;atmServiceCategory=UBR&amp;atmPeakCellRate=0&amp;atmSustainedCellRate=0&amp;atmMaxBurstSize=0&amp;enblQos=1&amp;grpPrecedence=8&amp;grpScheduler=WRR&amp;grpWeight=1&amp;queuePrecedence=8&amp;schedulerAlgorithm=WRR&amp;queueWeight=1</Layer2Config>
+            <Layer3Config>?serviceId=0&amp;wanL2IfName=0_0_35&amp;enblEnetWan=0&amp;enblIpVer=1&amp;ntwkPrtcl=2&amp;serviceName=ipoe_0_0_35&amp;enblDhcpClnt=1&amp;dhcpcOp60VID=&amp;dhcpcOp61IAID=&amp;dhcpcOp61DUID=&amp;dhcpcOp125Enabled=0&amp;enblNat=1&amp;enblFullcone=0&amp;enblFirewall=1&amp;enblIgmp=0&amp;enblMld=0&amp;defaultGatewayList=atm0.0&amp;dnsIfcsList=atm0.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&amp;wanAddr6Type=DHCP&amp;dhcp6cForAddr=1&amp;dhcp6cForPd=1&amp;enblv6=1&amp;dns6Ifc=atm0.0&amp;dfltGw6Ifc=atm0.0&amp;enblIPv6Firewall=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="2">
+            <Priority>2</Priority>
+            <Layer2Config>?atmVpi=0&amp;atmVci=35&amp;portId=0&amp;connMode=1&amp;linkType=EoA&amp;encapMode=0&amp;atmServiceCategory=UBR&amp;atmPeakCellRate=0&amp;atmSustainedCellRate=0&amp;atmMaxBurstSize=0&amp;enblQos=1&amp;grpPrecedence=8&amp;grpScheduler=WRR&amp;grpWeight=1&amp;queuePrecedence=8&amp;schedulerAlgorithm=WRR&amp;queueWeight=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=0_0_35&amp;enblEnetWan=0&amp;enblIpVer=1&amp;ntwkPrtcl=0&amp;serviceName=pppoe_0_0_35&amp;pppUserName=windstream&amp;pppPassword=windstream&amp;enblOnDemand=0&amp;pppTimeOut=0&amp;enblPPPRetry=1&amp;pppRetryTimeout=15&amp;pppRetryTimes=65534&amp;pppmtu=1492&amp;useStaticIpAddress=0&amp;pppLocalIpAddress=0.0.0.0&amp;pppIpExtension=0&amp;enblFirewall=1&amp;enblNat=1&amp;pppAuthMethod=0&amp;pppServerName=&amp;pppAuthErrorRetry=0&amp;enblPppDebug=1&amp;pppToBridge=1&amp;enblIgmp=0&amp;defaultGatewayList=ppp0.0&amp;dnsIfcsList=ppp0.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&amp;wanAddr6Type=DHCP&amp;dhcp6cForAddr=1&amp;dhcp6cForPd=1&amp;enblv6=1&amp;dns6Ifc=ppp0.0&amp;dfltGw6Ifc=ppp0.0&amp;enblIPv6Firewall=1&amp;unnumberedModel=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="3">
+            <Priority>3</Priority>
+            <Layer2Config>?portId=0&amp;ptmPriorityNorm=1&amp;ptmPriorityHigh=1&amp;connMode=1&amp;burstsize=3000&amp;enblQos=1&amp;grpPrec=8&amp;grpAlg=WRR&amp;grpWght=1&amp;prec=8&amp;alg=WRR&amp;wght=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=ptm0/(0_1_1)&amp;wanIfName=ppp1.0&amp;enblEnetWan=0&amp;ntwkPrtcl=0&amp;enVlanMux=1&amp;vlanMuxId=-1&amp;vlanMuxPr=-1&amp;enblIpVer=1&amp;serviceName=pppoe_0_1_1&amp;pppUserName=windstream&amp;pppPassword=windstream&amp;enblOnDemand=0&amp;pppTimeOut=0&amp;enblPPPRetry=1&amp;pppRetryTimeout=15&amp;pppRetryTimes=65534&amp;pppmtu=1492&amp;useStaticIpAddress=0&amp;pppLocalIpAddress=0.0.0.0&amp;pppIpExtension=0&amp;enblNat=1&amp;enblFirewall=1&amp;pppAuthMethod=0&amp;pppServerName=&amp;pppAuthErrorRetry=0&amp;enblPppDebug=1&amp;pppToBridge=1&amp;enblIgmp=1&amp;wanAddr6Type=DHCP&amp;unnumberedModel=1&amp;dhcp6cForAddr=1&amp;dhcp6cForPd=1&amp;enblMld=0&amp;defaultGatewayList=ppp1.0&amp;dfltGw6Ifc=ppp1.0&amp;dnsIfcsList=ppp1.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&amp;dnsRefresh=0&amp;dns6Type=DHCP&amp;dns6Ifc=ppp1.0&amp;&amp;enblIPv6Firewall=1&amp;enblv6=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="4">
+            <Priority>4</Priority>
+            <Layer2Config>?portId=0&amp;ptmPriorityNorm=1&amp;ptmPriorityHigh=1&amp;connMode=1&amp;burstsize=3000&amp;enblQos=1&amp;grpPrec=8&amp;grpAlg=WRR&amp;grpWght=1&amp;prec=8&amp;alg=WRR&amp;wght=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=ptm0/(0_1_1)&amp;wanIfName=ptm0.0&amp;enblEnetWan=0&amp;ntwkPrtcl=2&amp;enVlanMux=1&amp;vlanMuxId=-1&amp;vlanMuxPr=-1&amp;enblIpVer=1&amp;serviceName=ipoe_0_1_1&amp;enblDhcpClnt=1&amp;dhcpcOp60VID=&amp;dhcpcOp61IAID=&amp;dhcpcOp61DUID=&amp;dhcpcOp125Enabled=0&amp;wanAddr6Type=DHCP&amp;dhcp6cForAddr=1&amp;dhcp6cForPd=1&amp;enblNat=1&amp;enblFullcone=0&amp;enblFirewall=1&amp;enblIgmp=0&amp;enblMld=0&amp;defaultGatewayList=ptm0.0&amp;dfltGw6Ifc=ptm0.0&amp;dnsIfcsList=ptm0.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&amp;dnsRefresh=0&amp;dns6Type=DHCP&amp;dns6Ifc=ptm0.0&amp;enblIPv6Firewall=1&amp;ipoepingflag=0</Layer3Config>
+          </AutoDetectPvcCfg>
+          <FirewallException instance="1">
+            <Enable>TRUE</Enable>
+            <FilterName>ICMP</FilterName>
+            <Protocol>ICMP</Protocol>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </FirewallException>
+          <FirewallException instance="2">
+            <Enable>TRUE</Enable>
+            <FilterName>TCP-50580-50580</FilterName>
+            <Protocol>TCP</Protocol>
+            <DestinationPortStart>80</DestinationPortStart>
+            <SourceIPAddress>0.0.0.0</SourceIPAddress>
+            <SourceNetMask>0.0.0.0</SourceNetMask>
+            <DestinationIPAddress>CURRENT_LAN_IP</DestinationIPAddress>
+            <DestinationNetMask>255.255.255.255</DestinationNetMask>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </FirewallException>
+          <FirewallException nextInstance="3" ></FirewallException>
+          <PortMapping instance="1">
+            <PortMappingEnabled>TRUE</PortMappingEnabled>
+            <ExternalPort>50580</ExternalPort>
+            <X_BROADCOM_COM_ExternalPortEnd>50580</X_BROADCOM_COM_ExternalPortEnd>
+            <InternalPort>80</InternalPort>
+            <X_BROADCOM_COM_InternalPortEnd>80</X_BROADCOM_COM_InternalPortEnd>
+            <PortMappingProtocol>TCP</PortMappingProtocol>
+            <InternalClient>CURRENT_LAN_IP</InternalClient>
+            <PortMappingDescription>HTTP_FORWARD</PortMappingDescription>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </PortMapping>
+          <PortMapping nextInstance="2" ></PortMapping>
+        </AutoDetectGroup>
+      </AutoDetectCfg>
+      <WS_OneTimeRedirect>
+        <Enable>TRUE</Enable>
+        <DefaultPPPUserName>windstream</DefaultPPPUserName>
+        <DefaultPPPPassword>windstream</DefaultPPPPassword>
+        <RedirectURL>https://activation.windstream.com/wizlet/WINDSTREAMWEB/checkDeviceStatus.do?SN=</RedirectURL>
+      </WS_OneTimeRedirect>
+      <CpeLanAclDeny instance="1">
+        <layer3proto>tcp</layer3proto>
+        <app_name>ssh</app_name>
+        <app_port>22</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny instance="2">
+        <layer3proto>tcp</layer3proto>
+        <app_name>ftp</app_name>
+        <app_port>21</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny instance="3">
+        <layer3proto>udp</layer3proto>
+        <app_name>snmp</app_name>
+        <app_port>161</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny nextInstance="4" ></CpeLanAclDeny>
+    </X_SAGEM_COM>
+  </InternetGatewayDevice>
+</DslCpeConfig>
+
+Backup config:
+<?xml version="1.0"?>
+<DslCpeConfig version="3.0">
+  <InternetGatewayDevice>
+    <LANDeviceNumberOfEntries>1</LANDeviceNumberOfEntries>
+    <WANDeviceNumberOfEntries>1</WANDeviceNumberOfEntries>
+    <X_SAGEM_COM>
+      <ConfigLock>TRUE</ConfigLock>
+      <ConfigId>F1704N_WS_6.conf</ConfigId>
+      <IgmpVersion>2</IgmpVersion>
+      <EnableAutoDetect>TRUE</EnableAutoDetect>
+      <SystemIniCFG>
+        <PPPDR>0</PPPDR>
+      </SystemIniCFG>
+       <CpeLanAclDeny instance="1">
+       	<layer3proto>tcp</layer3proto>
+      	<app_name>ssh</app_name>
+      	<app_port>22</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny instance="2">
+       	<layer3proto>tcp</layer3proto>
+        <app_name>ftp</app_name>
+        <app_port>21</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny instance="3">
+       	<layer3proto>udp</layer3proto>
+        <app_name>snmp</app_name>
+        <app_port>161</app_port>
+      </CpeLanAclDeny>
+      <CpeLanAclDeny nextInstance="4" ></CpeLanAclDeny>
+      <AutoDetectCfg>
+        <NumofAutoGroup>1</NumofAutoGroup>
+        <SaveLastResult>TRUE</SaveLastResult>
+        <AutoDetectGroup instance="1">
+          <NumofPvc>4</NumofPvc>
+          <AutoDetectPvcCfg instance="1">
+            <Priority>1</Priority>
+            <Layer2Config>?atmVpi=0&atmVci=35&amp;portId=0&amp;connMode=1&amp;linkType=EoA&amp;encapMode=0&atmServiceCategory=UBR&atmPeakCellRate=0&atmSustainedCellRate=0&atmMaxBurstSize=0&amp;enblQos=1&grpPrecedence=8&grpScheduler=WRR&grpWeight=1&queuePrecedence=8&schedulerAlgorithm=WRR&queueWeight=1</Layer2Config>
+            <Layer3Config>?serviceId=0&amp;wanL2IfName=0_0_35&amp;enblEnetWan=0&enblIpVer=1&amp;ntwkPrtcl=2&amp;serviceName=ipoe_0_0_35&amp;enblDhcpClnt=1&amp;dhcpcOp60VID=&amp;dhcpcOp61IAID=&amp;dhcpcOp61DUID=&amp;dhcpcOp125Enabled=0&amp;enblNat=1&amp;enblFullcone=0&amp;enblFirewall=1&amp;enblIgmp=0&amp;enblMld=0&amp;defaultGatewayList=atm0.0&amp;dnsIfcsList=atm0.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&wanAddr6Type=DHCP&dhcp6cForAddr=1&dhcp6cForPd=1&enblv6=1&dns6Ifc=atm0.0&dfltGw6Ifc=atm0.0&enblIPv6Firewall=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="2">
+            <Priority>2</Priority>
+            <Layer2Config>?atmVpi=0&atmVci=35&amp;portId=0&amp;connMode=1&amp;linkType=EoA&amp;encapMode=0&atmServiceCategory=UBR&atmPeakCellRate=0&atmSustainedCellRate=0&atmMaxBurstSize=0&amp;enblQos=1&grpPrecedence=8&grpScheduler=WRR&grpWeight=1&queuePrecedence=8&schedulerAlgorithm=WRR&queueWeight=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=0_0_35&amp;enblEnetWan=0&enblIpVer=1&amp;ntwkPrtcl=0&amp;serviceName=pppoe_0_0_35&pppUserName=windstream&pppPassword=windstream&amp;enblOnDemand=0&pppTimeOut=0&amp;enblPPPRetry=1&pppRetryTimeout=15&pppRetryTimes=65534&pppmtu=1492&amp;useStaticIpAddress=0&pppLocalIpAddress=0.0.0.0&pppIpExtension=0&amp;enblFirewall=1&amp;enblNat=1&pppAuthMethod=0&pppServerName=&pppAuthErrorRetry=0&amp;enblPppDebug=1&pppToBridge=1&amp;enblIgmp=0&amp;defaultGatewayList=ppp0.0&amp;dnsIfcsList=ppp0.0&amp;dnsPrimary=0.0.0.0&amp;dnsSecondary=0.0.0.0&wanAddr6Type=DHCP&dhcp6cForAddr=1&dhcp6cForPd=1&enblv6=1&dns6Ifc=ppp0.0&dfltGw6Ifc=ppp0.0&enblIPv6Firewall=1&unnumberedModel=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="3">
+            <Priority>3</Priority>
+            <Layer2Config>?portId=0&ptmPriorityNorm=1&ptmPriorityHigh=1&connMode=1&burstsize=3000&enblQos=1&grpPrec=8&grpAlg=WRR&grpWght=1&prec=8&alg=WRR&wght=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=ptm0/(0_1_1)&wanIfName=ppp1.0&enblEnetWan=0&ntwkPrtcl=0&enVlanMux=1&vlanMuxId=-1&vlanMuxPr=-1&enblIpVer=1&serviceName=pppoe_0_1_1&pppUserName=windstream&pppPassword=windstream&enblOnDemand=0&pppTimeOut=0&enblPPPRetry=1&pppRetryTimeout=15&pppRetryTimes=65534&pppmtu=1492&useStaticIpAddress=0&pppLocalIpAddress=0.0.0.0&pppIpExtension=0&enblNat=1&enblFirewall=1&pppAuthMethod=0&pppServerName=&pppAuthErrorRetry=0&enblPppDebug=1&pppToBridge=1&enblIgmp=1&wanAddr6Type=DHCP&unnumberedModel=1&dhcp6cForAddr=1&dhcp6cForPd=1&enblMld=0&defaultGatewayList=ppp1.0&dfltGw6Ifc=ppp1.0&dnsIfcsList=ppp1.0&dnsPrimary=0.0.0.0&dnsSecondary=0.0.0.0&dnsRefresh=0&dns6Type=DHCP&dns6Ifc=ppp1.0&&enblIPv6Firewall=1&enblv6=1</Layer3Config>
+          </AutoDetectPvcCfg>
+          <AutoDetectPvcCfg instance="4">
+            <Priority>4</Priority>
+            <Layer2Config>?portId=0&ptmPriorityNorm=1&ptmPriorityHigh=1&connMode=1&burstsize=3000&enblQos=1&grpPrec=8&grpAlg=WRR&grpWght=1&prec=8&alg=WRR&wght=1</Layer2Config>
+            <Layer3Config>?wanL2IfName=ptm0/(0_1_1)&wanIfName=ptm0.0&enblEnetWan=0&ntwkPrtcl=2&enVlanMux=1&vlanMuxId=-1&vlanMuxPr=-1&enblIpVer=1&serviceName=ipoe_0_1_1&enblDhcpClnt=1&dhcpcOp60VID=&dhcpcOp61IAID=&dhcpcOp61DUID=&dhcpcOp125Enabled=0&wanAddr6Type=DHCP&dhcp6cForAddr=1&dhcp6cForPd=1&enblNat=1&enblFullcone=0&enblFirewall=1&enblIgmp=0&enblMld=0&defaultGatewayList=ptm0.0&dfltGw6Ifc=ptm0.0&dnsIfcsList=ptm0.0&dnsPrimary=0.0.0.0&dnsSecondary=0.0.0.0&dnsRefresh=0&dns6Type=DHCP&dns6Ifc=ptm0.0&enblIPv6Firewall=1&ipoepingflag=0</Layer3Config>
+          </AutoDetectPvcCfg>
+          <FirewallException instance="1">
+            <Enable>TRUE</Enable>
+            <FilterName>ICMP</FilterName>
+            <Protocol>ICMP</Protocol>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </FirewallException>
+          <FirewallException instance="2">
+            <Enable>TRUE</Enable>
+            <FilterName>TCP-50580-50580</FilterName>
+            <Protocol>TCP</Protocol>
+            <DestinationPortStart>80</DestinationPortStart>
+            <SourceIPAddress>0.0.0.0</SourceIPAddress>
+            <SourceNetMask>0.0.0.0</SourceNetMask>
+            <DestinationIPAddress>CURRENT_LAN_IP</DestinationIPAddress>
+            <DestinationNetMask>255.255.255.255</DestinationNetMask>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </FirewallException>
+          <FirewallException nextInstance="3" ></FirewallException>
+          <PortMapping instance="1">
+            <PortMappingEnabled>TRUE</PortMappingEnabled>
+            <ExternalPort>50580</ExternalPort>
+            <X_BROADCOM_COM_ExternalPortEnd>50580</X_BROADCOM_COM_ExternalPortEnd>
+            <InternalPort>80</InternalPort>
+            <X_BROADCOM_COM_InternalPortEnd>80</X_BROADCOM_COM_InternalPortEnd>
+            <PortMappingProtocol>TCP</PortMappingProtocol>
+            <InternalClient>CURRENT_LAN_IP</InternalClient>
+            <PortMappingDescription>HTTP_FORWARD</PortMappingDescription>
+            <X_BROADCOM_COM_ExpiryTime>0</X_BROADCOM_COM_ExpiryTime>
+            <X_SAGEM_COM_HideForWEBGUI>TRUE</X_SAGEM_COM_HideForWEBGUI>
+          </PortMapping>
+          <PortMapping nextInstance="2" ></PortMapping>
+        </AutoDetectGroup>
+      </AutoDetectCfg>
+      <WS_OneTimeRedirect>
+        <Enable>TRUE</Enable>
+        <DefaultPPPUserName>windstream</DefaultPPPUserName>
+        <DefaultPPPPassword>windstream</DefaultPPPPassword>
+        <RedirectURL>https://activation.windstream.com/wizlet/WINDSTREAMWEB/checkDeviceStatus.do?SN=</RedirectURL>
+      </WS_OneTimeRedirect>
+    </X_SAGEM_COM>
+    <DeviceInfo>
+      <ManufacturerOUI>001556</ManufacturerOUI>
+    </DeviceInfo>
+    <X_BROADCOM_COM_SyslogCfg>
+      <Status>Enabled</Status>
+      <LocalDisplayLevel>Debug</LocalDisplayLevel>
+    </X_BROADCOM_COM_SyslogCfg>
+    <X_BROADCOM_COM_LoginCfg>
+      <AdminPassword>YWRtaW4A</AdminPassword>
+      <UserPassword>d2luZHN0cmVhbXVzZXIA</UserPassword> 
+      <SupportPassword>VzFuZHN0cjNhbTQ1YmMyMA==</SupportPassword>
+    </X_BROADCOM_COM_LoginCfg>
+    <X_BROADCOM_COM_AppCfg>
+      <Tr69cCfg>
+        <ConnectionRequestAuthentication>FALSE</ConnectionRequestAuthentication>
+      </Tr69cCfg>
+    </X_BROADCOM_COM_AppCfg>
+    <X_BROADCOM_COM_EthernetSwitch>
+      <NumberOfVirtualPorts>4</NumberOfVirtualPorts>
+      <EnableVirtualPorts>TRUE</EnableVirtualPorts>
+      <IfName>(null)</IfName>
+    </X_BROADCOM_COM_EthernetSwitch>
+    <ManagementServer>
+      <URL>https://hdm.windstream.com/cwmpWeb/CPEMgt</URL>
+      <Username>Windstream</Username>
+      <Password>Windstream</Password>
+      <PeriodicInformEnable>TRUE</PeriodicInformEnable>
+      <PeriodicInformInterval>86400</PeriodicInformInterval>
+      <PeriodicInformTime>2000-01-01T00:02:48+00:00</PeriodicInformTime>
+      <X_001556_RedirectEnabled>FALSE</X_001556_RedirectEnabled>
+      <X_001556_RedirectURL>http://activation.windstream.com</X_001556_RedirectURL>
+      <X_001556_WalledGardenDomain>activation.windstream.com</X_001556_WalledGardenDomain>
+      <X_001556_GardenDomainWhiteListEnabled>FALSE</X_001556_GardenDomainWhiteListEnabled>
+      <X_001556_GardenDomainWhiteList>(null)</X_001556_GardenDomainWhiteList>
+    </ManagementServer>
+    <Time>
+      <Enable>TRUE</Enable>
+      <NTPServer1>time.nist.gov</NTPServer1>
+      <NTPServer2>ntp1.tummy.com</NTPServer2>
+      <LocalTimeZone>-05:00</LocalTimeZone>
+      <LocalTimeZoneName>Eastern Time</LocalTimeZoneName>
+      <DaylightSavingsStart>2000-01-01T00:02:46+00:00</DaylightSavingsStart>
+      <DaylightSavingsEnd>2000-01-01T00:02:46+00:00</DaylightSavingsEnd>
+    </Time>
+    <Layer2Bridging>
+      <BridgeNumberOfEntries>1</BridgeNumberOfEntries>
+      <FilterNumberOfEntries>8</FilterNumberOfEntries>
+      <MarkingNumberOfEntries>0</MarkingNumberOfEntries>
+      <AvailableInterfaceNumberOfEntries>8</AvailableInterfaceNumberOfEntries>
+      <Bridge instance="1">
+        <BridgeKey>0</BridgeKey>
+        <BridgeEnable>TRUE</BridgeEnable>
+        <BridgeName>Default</BridgeName>
+      </Bridge>
+      <Bridge nextInstance="2" ></Bridge>
+      <Filter instance="1">
+        <FilterKey>1</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>1</FilterInterface>
+      </Filter>
+      <Filter instance="2">
+        <FilterKey>2</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>2</FilterInterface>
+      </Filter>
+      <Filter instance="3">
+        <FilterKey>3</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>3</FilterInterface>
+      </Filter>
+      <Filter instance="4">
+        <FilterKey>4</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>4</FilterInterface>
+      </Filter>
+      <Filter instance="5">
+        <FilterKey>5</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterBridgeReference>0</FilterBridgeReference>
+        <FilterInterface>5</FilterInterface>
+      </Filter>
+      <Filter instance="6">
+        <FilterKey>6</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterInterface>6</FilterInterface>
+      </Filter>
+      <Filter instance="7">
+        <FilterKey>7</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterInterface>7</FilterInterface>
+      </Filter>
+      <Filter instance="8">
+        <FilterKey>8</FilterKey>
+        <FilterEnable>TRUE</FilterEnable>
+        <FilterInterface>8</FilterInterface>
+      </Filter>
+      <Filter nextInstance="9" ></Filter>
+      <AvailableInterface instance="1">
+        <AvailableInterfaceKey>1</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="2">
+        <AvailableInterfaceKey>2</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="3">
+        <AvailableInterfaceKey>3</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="4">
+        <AvailableInterfaceKey>4</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="5">
+        <AvailableInterfaceKey>5</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="6">
+        <AvailableInterfaceKey>6</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="7">
+        <AvailableInterfaceKey>7</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface instance="8">
+        <AvailableInterfaceKey>8</AvailableInterfaceKey>
+        <InterfaceType>LANInterface</InterfaceType>
+        <InterfaceReference>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</InterfaceReference>
+      </AvailableInterface>
+      <AvailableInterface nextInstance="9" ></AvailableInterface>
+    </Layer2Bridging>
+    <QueueManagement>
+      <Enable>TRUE</Enable>
+      <DefaultDSCPMark>-1</DefaultDSCPMark>    
+      <ClassificationNumberOfEntries>0</ClassificationNumberOfEntries>
+      <AppNumberOfEntries>0</AppNumberOfEntries>
+      <FlowNumberOfEntries>0</FlowNumberOfEntries>
+      <PolicerNumberOfEntries>0</PolicerNumberOfEntries>
+      <QueueNumberOfEntries>32</QueueNumberOfEntries>
+      <Queue instance="1">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="2">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="3">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="4">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="5">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="6">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="7">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="8">
+        <QueueEnable>TRUE</QueueEnable>
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.1</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="9">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="10">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="11">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="12">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="13">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="14">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="15">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="16">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.2</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="17">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="18">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="19">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="20">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="21">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="22">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="23">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="24">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.3</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="25">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>1</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="26">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>2</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Voice Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>2</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="27">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>3</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>3</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="28">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>4</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Video Priority</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>4</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="29">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>5</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>5</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="30">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>6</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>6</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="31">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>7</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Background</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>7</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue instance="32">
+        <QueueInterface>InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BROADCOM_COM_WlanAdapter.WlVirtIntfCfg.4</QueueInterface>
+        <QueuePrecedence>8</QueuePrecedence>
+        <X_BROADCOM_COM_QueueName>WMM Best Effort</X_BROADCOM_COM_QueueName>
+        <X_BROADCOM_COM_QueueId>8</X_BROADCOM_COM_QueueId>
+      </Queue>
+      <Queue nextInstance="33" ></Queue>
+    </QueueManagement>
+    <LANDevice instance="1">
+      <LANEthernetInterfaceNumberOfEntries>4</LANEthernetInterfaceNumberOfEntries>
+      <LANUSBInterfaceNumberOfEntries>0</LANUSBInterfaceNumberOfEntries>
+      <LANWLANConfigurationNumberOfEntries>1</LANWLANConfigurationNumberOfEntries>
+      <LANHostConfigManagement>
+        <DHCPServerEnable>TRUE</DHCPServerEnable>
+        <MinAddress>192.168.254.1</MinAddress>
+        <MaxAddress>192.168.254.253</MaxAddress>
+        <IPRouters>192.168.254.254</IPRouters>
+        <DHCPLeaseTime>235926000</DHCPLeaseTime>
+        <IPInterfaceNumberOfEntries>1</IPInterfaceNumberOfEntries>
+        <IPInterface instance="1">
+          <Enable>TRUE</Enable>
+          <IPInterfaceIPAddress>192.168.254.254</IPInterfaceIPAddress>
+          <X_BROADCOM_COM_IfName>br0</X_BROADCOM_COM_IfName>
+        </IPInterface>
+        <IPInterface nextInstance="2" ></IPInterface>
+      </LANHostConfigManagement>
+      <X_BROADCOM_COM_IPv6LANHostConfigManagement>
+        <DHCPv6ServerEnable>TRUE</DHCPv6ServerEnable>
+        <StatefulDHCPv6Server>FALSE</StatefulDHCPv6Server>
+        <MinInterfaceID>0:0:0:2</MinInterfaceID>
+        <MaxInterfaceID>0:0:0:254</MaxInterfaceID>
+        <DHCPv6LeaseTime>86400</DHCPv6LeaseTime>
+        <IPv6DNSConfigType>DHCP</IPv6DNSConfigType>
+        <IPv6InterfaceNumberOfEntries>0</IPv6InterfaceNumberOfEntries>
+        <X_BROADCOM_COM_MldSnoopingConfig>
+          <Enable>FALSE</Enable>
+          <Mode>Blocking</Mode>
+        </X_BROADCOM_COM_MldSnoopingConfig>             
+      </X_BROADCOM_COM_IPv6LANHostConfigManagement>
+      <LANEthernetInterfaceConfig instance="1">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth0</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="2">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth1</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="3">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth2</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig instance="4">
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_IfName>eth3</X_BROADCOM_COM_IfName>
+      </LANEthernetInterfaceConfig>
+      <LANEthernetInterfaceConfig nextInstance="5" ></LANEthernetInterfaceConfig>
+      <WLANConfiguration instance="1">
+        <MaxBitRate>54</MaxBitRate>
+        <SSID>WIN_bc20</SSID>
+        <BeaconType>11i</BeaconType>
+        <KeyPassphrase>NOS</KeyPassphrase>
+        <BasicEncryptionModes>None</BasicEncryptionModes>
+        <BasicAuthenticationMode>None</BasicAuthenticationMode>
+        <WPAEncryptionModes>TKIPandAESEncryption</WPAEncryptionModes>
+        <WPAAuthenticationMode>PSKAuthentication</WPAAuthenticationMode>
+        <IEEE11iEncryptionModes></IEEE11iEncryptionModes>
+        <IEEE11iAuthenticationMode></IEEE11iAuthenticationMode>
+        <BasicDataTransmitRates>54</BasicDataTransmitRates>
+        <OperationalDataTransmitRates>NOS</OperationalDataTransmitRates>
+        <BeaconAdvertisementEnabled>TRUE</BeaconAdvertisementEnabled>
+        <SSIDAdvertisementEnabled>TRUE</SSIDAdvertisementEnabled>
+        <RadioEnabled>TRUE</RadioEnabled>
+        <LocationDescription>NOS</LocationDescription>
+        <RegulatoryDomain>US</RegulatoryDomain>
+        <PeerBSSID>NOS</PeerBSSID>
+        <AuthenticationServiceMode>NOS</AuthenticationServiceMode>
+        <X_BROADCOM_COM_HideSSID>FALSE</X_BROADCOM_COM_HideSSID>
+        <X_BROADCOM_COM_GuestSSID>wl0_Guest1</X_BROADCOM_COM_GuestSSID>
+        <X_BROADCOM_COM_GuestEnable>FALSE</X_BROADCOM_COM_GuestEnable>
+        <X_BROADCOM_COM_GuestHiden>FALSE</X_BROADCOM_COM_GuestHiden>
+        <X_BROADCOM_COM_GuestIsolateClients>FALSE</X_BROADCOM_COM_GuestIsolateClients>
+        <X_BROADCOM_COM_Guest1SSID>wl0_Guest2</X_BROADCOM_COM_Guest1SSID>
+        <X_BROADCOM_COM_Guest1Enable>FALSE</X_BROADCOM_COM_Guest1Enable>
+        <X_BROADCOM_COM_Guest1Hiden>FALSE</X_BROADCOM_COM_Guest1Hiden>
+        <X_BROADCOM_COM_Guest1IsolateClients>FALSE</X_BROADCOM_COM_Guest1IsolateClients>
+        <X_BROADCOM_COM_Guest2SSID>wl0_Guest3</X_BROADCOM_COM_Guest2SSID>
+        <X_BROADCOM_COM_Guest2Enable>FALSE</X_BROADCOM_COM_Guest2Enable>
+        <X_BROADCOM_COM_Guest2Hiden>FALSE</X_BROADCOM_COM_Guest2Hiden>
+        <X_BROADCOM_COM_Guest2IsolateClients>FALSE</X_BROADCOM_COM_Guest2IsolateClients>
+        <WEPKey instance="1">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="2">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="3">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey instance="4">
+          <WEPKey>1234567890123</WEPKey>
+        </WEPKey>
+        <WEPKey nextInstance="5" ></WEPKey>
+        <PreSharedKey instance="1">
+          <PreSharedKey>ABCDEF23</PreSharedKey>
+        </PreSharedKey>
+        <PreSharedKey nextInstance="2" ></PreSharedKey>
+        <X_BROADCOM_COM_WlanAdapter>
+          <WlBaseCfg>
+            <WlCoreRev>15</WlCoreRev>
+            <WlFrameBurst>on</WlFrameBurst>
+            <WlChannel>0</WlChannel>
+	    <WlCsScanTimer>360</WlCsScanTimer>
+            <WlAburnSupported>1</WlAburnSupported>
+            <WlAmpduSupported>1</WlAmpduSupported>
+            <WlAmsduSupported>1</WlAmsduSupported>
+            <WlWmeSupported>1</WlWmeSupported>
+            <WlWmfSupported>1</WlWmfSupported>
+          </WlBaseCfg>
+          <WlStaticWdsCfg instance="1">
+            <WlMacAddr></WlMacAddr>
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="2">
+            <WlMacAddr></WlMacAddr>
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="3">
+            <WlMacAddr></WlMacAddr>
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg instance="4">
+            <WlMacAddr></WlMacAddr>
+          </WlStaticWdsCfg>
+          <WlStaticWdsCfg nextInstance="5" ></WlStaticWdsCfg>
+          <WlVirtIntfCfg instance="1">
+            <WlIdx>0</WlIdx>
+            <WlSsid>WIN_bc20</WlSsid>
+            <WlWpaPsk>ahgcemgm</WlWpaPsk>
+            <WlWpa>tkip+aes</WlWpa>
+            <WlAuthMode>psk2</WlAuthMode>
+            <WlWpaGTKRekey>3600</WlWpaGTKRekey>
+            <WlRadiusKey></WlRadiusKey>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+            <WlWpsCfg>
+              <Wsc_mode>enabled</Wsc_mode>
+            </WlWpsCfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="2">
+            <WlSsid>wl0_Guest1</WlSsid>
+            <WlIfcname>wl0.1</WlIfcname>
+            <WlBssMacAddr></WlBssMacAddr>
+            <WlWpaPsk></WlWpaPsk>
+            <WlRadiusKey></WlRadiusKey>
+            <WlEnblSsid>0</WlEnblSsid>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="3">
+            <WlIdx>2</WlIdx>
+            <WlSsid>wl0_Guest2</WlSsid>
+            <WlIfcname>wl0.2</WlIfcname>
+            <WlBssMacAddr></WlBssMacAddr>
+            <WlWpaPsk></WlWpaPsk>
+            <WlRadiusKey></WlRadiusKey>
+            <WlEnblSsid>0</WlEnblSsid>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg instance="4">
+            <WlIdx>3</WlIdx>
+            <WlSsid>wl0_Guest3</WlSsid>
+            <WlIfcname>wl0.3</WlIfcname>
+            <WlBssMacAddr></WlBssMacAddr>
+            <WlWpaPsk></WlWpaPsk>
+            <WlRadiusKey></WlRadiusKey>
+            <WlEnblSsid>0</WlEnblSsid>
+            <WlKey64Cfg instance="1">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="2">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="3">
+            </WlKey64Cfg>
+            <WlKey64Cfg instance="4">
+            </WlKey64Cfg>
+            <WlKey64Cfg nextInstance="5" ></WlKey64Cfg>
+            <WlKey128Cfg instance="1">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="2">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="3">
+            </WlKey128Cfg>
+            <WlKey128Cfg instance="4">
+            </WlKey128Cfg>
+            <WlKey128Cfg nextInstance="5" ></WlKey128Cfg>
+          </WlVirtIntfCfg>
+          <WlVirtIntfCfg nextInstance="5" ></WlVirtIntfCfg>
+        </X_BROADCOM_COM_WlanAdapter>
+      </WLANConfiguration>
+      <WLANConfiguration nextInstance="2" ></WLANConfiguration>
+    </LANDevice>
+    <LANDevice nextInstance="2" ></LANDevice>
+    <WANDevice instance="1">
+      <WANConnectionNumberOfEntries>0</WANConnectionNumberOfEntries>
+      <WANCommonInterfaceConfig>
+        <WANAccessType>DSL</WANAccessType>
+      </WANCommonInterfaceConfig>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="1">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="2">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="3">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats instance="4">
+      </X_BROADCOM_COM_XTM_Interface_Stats>
+      <X_BROADCOM_COM_XTM_Interface_Stats nextInstance="5" ></X_BROADCOM_COM_XTM_Interface_Stats>
+      <WANDSLInterfaceConfig>
+        <Enable>TRUE</Enable>
+        <X_BROADCOM_COM_SRA>Off</X_BROADCOM_COM_SRA>
+      </WANDSLInterfaceConfig>
+    </WANDevice>
+    <WANDevice nextInstance="2" ></WANDevice>
+    <Layer3Forwarding>
+      <ForwardNumberOfEntries>0</ForwardNumberOfEntries>
+    </Layer3Forwarding>
+    <X_BROADCOM_COM_IPv6Layer3Forwarding>
+      <ForwardNumberOfEntries>0</ForwardNumberOfEntries>    
+    </X_BROADCOM_COM_IPv6Layer3Forwarding>
+    <X_BROADCOM_COM_CertificateCfg instance="1">
+      <Name>acscert</Name>
+      <Subject>C=US/O=VeriSign, Inc./OU=Class 3 Public Primary Certification Authority
+</Subject>
+      <Type>ca</Type>
+      <Content>-----BEGIN CERTIFICATE-----
+MIICPDCCAaUCEHC65B0Q2Sk0tjjKewPMur8wDQYJKoZIhvcNAQECBQAwXzEL
+MAkGA1UEBhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQL
+Ey5DbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9y
+aXR5MB4XDTk2MDEyOTAwMDAwMFoXDTI4MDgwMTIzNTk1OVowXzELMAkGA1UE
+BhMCVVMxFzAVBgNVBAoTDlZlcmlTaWduLCBJbmMuMTcwNQYDVQQLEy5DbGFz
+cyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIGf
+MA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJXFme8huKARS0EN8EQNvjV69q
+RUCPhAwL0TPZ2RHP7gJYHyX3KqhEBarsAx94f56TuZoAqiN91qyFomNFx3In
+zPRMxnVx0jnvT0Lwdd8KkMaOIG+YD/isI19wKTakyYbnsZogy1Olhec9vn2a
+/iRFM9x2Fe0PonFkTGUugWhFpwIDAQABMA0GCSqGSIb3DQEBAgUAA4GBALtM
+EivPLCYATxQT3ab7/AoRhIzzKBxnki98tsX63/Dolbwdj2wsqFHMc9ikwFPw
+TtYmwHYBV4GSXiHx0bH/59AhWM1pF+NEHJwZRDmJXNycAA9WjQKZ7aKQRUzk
+uxCkPfAyAw7xzvjoyVGM5mKf5p/AfbdynMk2OmufTqj/ZA1k
+-----END CERTIFICATE-----</Content>
+    </X_BROADCOM_COM_CertificateCfg>
+    <X_BROADCOM_COM_CertificateCfg nextInstance="2" ></X_BROADCOM_COM_CertificateCfg>
+  </InternetGatewayDevice>
+</DslCpeConfig>
+
+Scratch Pad:
+tr69c_acsState:    
+ppp0.0:    00005e00016b/0001
+
+System Log:
+      date                      facility        severity        message
+      Jan  1 00:00:08           syslog          emerg          syslogd started: BusyBox v1.17.2
+      Jan  1 00:00:08           daemon          notice         kernel: klogd started: BusyBox v1.17.2 (2018-06-01 15:16:56 CST)
+      Jan  1 00:00:08           daemon          notice         kernel: Linux version 2.6.30 (jenkins@sz01017.ads.local) (gcc version 4.4.2 (Buildroot 2010.02-git) ) #1 Fri Jun 1 15:13:39 CST 2018
+      Jan  1 00:00:08           daemon          warn           kernel: HS Serial flash device: name ID_W25X64, id 0xef17 size 8192KB
+      Jan  1 00:00:08           daemon          warn           kernel: F@ST1704N prom init
+      Jan  1 00:00:08           daemon          info           kernel: CPU revision is: 00029033 (Broadcom BCM3302)
+      Jan  1 00:00:08           daemon          warn           kernel: DSL SDRAM reserved: 0xc0000
+      Jan  1 00:00:08           daemon          warn           kernel: crash log buf init,reg_base a0000000
+      Jan  1 00:00:08           daemon          info           kernel: Determined physical RAM map:
+      Jan  1 00:00:08           daemon          info           kernel:  memory: 01ec0000 @ 00000000 (usable)
+      Jan  1 00:00:08           daemon          info           kernel:  memory: 00080000 @ 01ec0000 (reserved)
+      Jan  1 00:00:08           daemon          warn           kernel: Zone PFN ranges:
+      Jan  1 00:00:08           daemon          warn           kernel:   DMA      0x00000000 -> 0x00001000
+      Jan  1 00:00:08           daemon          warn           kernel:   Normal   0x00001000 -> 0x00001ec0
+      Jan  1 00:00:08           daemon          warn           kernel: Movable zone start PFN for each node
+      Jan  1 00:00:08           daemon          warn           kernel: early_node_map[1] active PFN ranges
+      Jan  1 00:00:08           daemon          warn           kernel:     0: 0x00000000 -> 0x00001ec0
+      Jan  1 00:00:08           daemon          debug          kernel: On node 0 totalpages: 7872
+      Jan  1 00:00:08           daemon          debug          kernel: free_area_init_node: node 0, pgdat 802eb890, node_mem_map 81000000
+      Jan  1 00:00:08           daemon          debug          kernel:   DMA zone: 32 pages used for memmap
+      Jan  1 00:00:08           daemon          debug          kernel:   DMA zone: 0 pages reserved
+      Jan  1 00:00:08           daemon          debug          kernel:   DMA zone: 4064 pages, LIFO batch:0
+      Jan  1 00:00:08           daemon          debug          kernel:   Normal zone: 30 pages used for memmap
+      Jan  1 00:00:08           daemon          debug          kernel:   Normal zone: 3746 pages, LIFO batch:0
+      Jan  1 00:00:08           daemon          warn           kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 7810
+      Jan  1 00:00:08           daemon          notice         kernel: Kernel command line: root=31:0 ro noinitrd console=ttyS0,115200
+      Jan  1 00:00:08           daemon          warn           kernel: Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+      Jan  1 00:00:08           daemon          warn           kernel: Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+      Jan  1 00:00:08           daemon          info           kernel: NR_IRQS:128
+      Jan  1 00:00:08           daemon          warn           kernel: PID hash table entries: 128 (order: 7, 512 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: console [ttyS0] enabled
+      Jan  1 00:00:08           daemon          info           kernel: Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: Memory: 27860k/31488k available (2461k kernel code, 3628k reserved, 472k data, 124k init, 0k highmem)
+      Jan  1 00:00:08           daemon          info           kernel: Calibrating delay loop... 331.77 BogoMIPS (lpj=165888)
+      Jan  1 00:00:08           daemon          warn           kernel: Mount-cache hash table entries: 512
+      Jan  1 00:00:08           daemon          info           kernel: --Kernel Config--
+      Jan  1 00:00:08           daemon          info           kernel:   SMP=0
+      Jan  1 00:00:08           daemon          info           kernel:   PREEMPT=0
+      Jan  1 00:00:08           daemon          info           kernel:   DEBUG_SPINLOCK=0
+      Jan  1 00:00:08           daemon          info           kernel:   DEBUG_MUTEXES=0
+      Jan  1 00:00:08           daemon          warn           kernel: Broadcom Logger v0.1 Jun  1 2018 15:11:18
+      Jan  1 00:00:08           daemon          info           kernel: net_namespace: 1128 bytes
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 16
+      Jan  1 00:00:08           daemon          warn           kernel: Total Flash size: 8192K with 2048 sectors
+      Jan  1 00:00:08           daemon          warn           kernel: registering PCI controller with io_map_base unset
+      Jan  1 00:00:08           daemon          warn           kernel: registering PCI controller with io_map_base unset
+      Jan  1 00:00:08           daemon          warn           kernel: bio: create slab <bio-0> at 0
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0: PME# supported from D0 D3hot
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0: PME# disabled
+      Jan  1 00:00:08           daemon          debug          kernel: pci 0000:02:00.0: reg 10 64bit mmio: [0x000000-0x007fff]
+      Jan  1 00:00:08           daemon          debug          kernel: pci 0000:02:00.0: supports D1 D2
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0: PCI bridge, secondary bus 0000:02
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0:   IO window: disabled
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0:   MEM window: 0x10200000-0x102fffff
+      Jan  1 00:00:08           daemon          info           kernel: pci 0000:01:00.0:   PREFETCH window: disabled
+      Jan  1 00:00:08           daemon          warn           kernel: PCI: Enabling device 0000:01:00.0 (0000 -> 0002)
+      Jan  1 00:00:08           daemon          debug          kernel: PCI: Setting latency timer of device 0000:01:00.0 to 64
+      Jan  1 00:00:08           daemon          warn           kernel: BLOG v3.0 Initialized
+      Jan  1 00:00:08           daemon          warn           kernel: BLOG Rule v1.0 Initialized
+      Jan  1 00:00:08           daemon          warn           kernel: Broadcom IQoS v0.1 Jun  1 2018 15:13:28 initialized
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 8
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 20
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 2
+      Jan  1 00:00:08           daemon          info           kernel: IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+      Jan  1 00:00:08           daemon          info           kernel: TCP: Hash tables configured (established 1024 bind 1024)
+      Jan  1 00:00:08           daemon          info           kernel: TCP reno registered
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 1
+      Jan  1 00:00:08           daemon          info           kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+      Jan  1 00:00:08           daemon          info           kernel: squashfs: version 4.0 with LZMA457 ported by BRCM
+      Jan  1 00:00:08           daemon          info           kernel: msgmni has been set to 54
+      Jan  1 00:00:08           daemon          info           kernel: io scheduler noop registered (default)
+      Jan  1 00:00:08           daemon          warn           kernel: pcieport-driver 0000:01:00.0: device [14e4:6318] has invalid IRQ; check vendor BIOS
+      Jan  1 00:00:08           daemon          debug          kernel: PCI: Setting latency timer of device 0000:01:00.0 to 64
+      Jan  1 00:00:08           daemon          info           kernel: PPP generic driver version 2.4.2
+      Jan  1 00:00:08           daemon          info           kernel: PPP Deflate Compression module registered
+      Jan  1 00:00:08           daemon          info           kernel: PPP BSD Compression module registered
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 24
+      Jan  1 00:00:08           daemon          warn           kernel: bcm963xx_mtd driver v1.0
+      Jan  1 00:00:08           daemon          warn           kernel: File system address: 0xb8010100
+      Jan  1 00:00:08           daemon          warn           kernel: brcmboard: brcm_board_init entry
+      Jan  1 00:00:08           daemon          warn           kernel: SES: Button Interrupt 0x0 is enabled
+      Jan  1 00:00:08           daemon          warn           kernel: SES: LED GPIO 0x8031 is enabled
+      Jan  1 00:00:08           daemon          info           kernel: Serial: BCM63XX driver $Revision: 3.00 $
+      Jan  1 00:00:08           daemon          info           kernel: Magic SysRq enabled (type ^ h for list of supported commands)
+      Jan  1 00:00:08           daemon          info           kernel: ttyS0 at MMIO 0xb0000100 (irq = 36) is a BCM63XX
+      Jan  1 00:00:08           daemon          warn           kernel: bcmPktDmaBds_init: Broadcom Packet DMA BDs initialized
+      Jan  1 00:00:08           daemon          warn           kernel: bcmxtmrt: Broadcom BCM6318B0 ATM/PTM Network Device v0.5 Jun  1 2018 15:13:16
+      Jan  1 00:00:08           daemon          warn           kernel: GACT probability NOT on
+      Jan  1 00:00:08           daemon          warn           kernel: Mirror/redirect action on
+      Jan  1 00:00:08           daemon          warn           kernel: u32 classifier
+      Jan  1 00:00:08           daemon          warn           kernel:     input device check on 
+      Jan  1 00:00:08           daemon          warn           kernel:     Actions configured 
+      Jan  1 00:00:08           daemon          info           kernel: GRE over IPv4 tunneling driver
+      Jan  1 00:00:08           daemon          info           kernel: TCP cubic registered
+      Jan  1 00:00:08           daemon          info           kernel: Initializing XFRM netlink socket
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 10
+      Jan  1 00:00:08           daemon          info           kernel: IPv6 over IPv4 tunneling driver
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 17
+      Jan  1 00:00:08           daemon          info           kernel: NET: Registered protocol family 15
+      Jan  1 00:00:08           daemon          info           kernel: Initializing MCPD Module
+      Jan  1 00:00:08           daemon          info           kernel: Ebtables v2.0 registered
+      Jan  1 00:00:08           daemon          info           kernel: ebt_time registered
+      Jan  1 00:00:08           daemon          info           kernel: ebt_ftos registered
+      Jan  1 00:00:08           daemon          info           kernel: ebt_wmm_mark registered
+      Jan  1 00:00:08           daemon          info           kernel: 802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+      Jan  1 00:00:08           daemon          info           kernel: All bugs added by David S. Miller <davem@redhat.com>
+      Jan  1 00:00:08           daemon          warn           kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:0.
+      Jan  1 00:00:08           daemon          info           kernel: Freeing unused kernel memory: 124k freed
+      Jan  1 00:00:08           daemon          warn           kernel: chipinfo: module license 'proprietary' taints kernel.
+      Jan  1 00:00:08           daemon          warn           kernel: Disabling lock debugging due to kernel taint
+      Jan  1 00:00:08           daemon          warn           kernel: brcmchipinfo: brcm_chipinfo_init entry
+      Jan  1 00:00:08           daemon          warn           kernel: NBUFF v1.0 Initialized
+      Jan  1 00:00:08           daemon          warn           kernel: ^[[0;36;44mInitialized fcache state^[[0m
+      Jan  1 00:00:08           daemon          warn           kernel: Broadcom Packet Flow Cache  Char Driver v2.2 Jun  1 2018 15:11:34 Registered<242>
+      Jan  1 00:00:08           daemon          warn           kernel: Created Proc FS /procfs/fcache
+      Jan  1 00:00:08           daemon          warn           kernel: Broadcom Packet Flow Cache registered with netdev chain
+      Jan  1 00:00:08           daemon          warn           kernel: ^[[0;36;44mBroadcom Packet Flow Cache learning via BLOG enabled.^[[0m
+      Jan  1 00:00:08           daemon          warn           kernel: Constructed Broadcom Packet Flow Cache v2.2 Jun  1 2018 15:11:34
+      Jan  1 00:00:08           daemon          warn           kernel: bcmxtmcfg: bcmxtmcfg_init entry
+      Jan  1 00:00:08           daemon          warn           kernel: adsl: adsl_init entry
+      Jan  1 00:00:08           daemon          warn           kernel: Broadcom BCM6318B0 Ethernet Network Device v0.1 Jun  1 2018 15:13:11
+      Jan  1 00:00:08           daemon          warn           kernel: ETH Init: Ch:0 - 200 tx BDs at 0xa19b7000
+      Jan  1 00:00:08           daemon          warn           kernel: ETH Init: Ch:1 - 200 tx BDs at 0xa19ec000
+      Jan  1 00:00:08           daemon          warn           kernel: ETH Init: Ch:0 - 400 rx BDs at 0xa19b9000
+      Jan  1 00:00:08           daemon          warn           kernel: ETH Init: Ch:1 - 100 rx BDs at 0xa1235800
+      Jan  1 00:00:08           daemon          warn           kernel: Error: kerSysRegisterDyingGaspHandler: list head is null
+      Jan  1 00:00:08           daemon          warn           kernel: eth0: MAC Address: 8C:10:D4:45:BC:1E
+      Jan  1 00:00:08           daemon          warn           kernel: eth1: MAC Address: 8C:10:D4:45:BC:1E
+      Jan  1 00:00:08           daemon          warn           kernel: eth2: MAC Address: 8C:10:D4:45:BC:1E
+      Jan  1 00:00:08           daemon          warn           kernel: eth3: MAC Address: 8C:10:D4:45:BC:1E
+      Jan  1 00:00:08           daemon          warn           kernel: wl: high_wmark_tot=400
+      Jan  1 00:00:08           daemon          warn           kernel: PCI: Enabling device 0000:02:00.0 (0000 -> 0002)
+      Jan  1 00:00:08           daemon          debug          kernel: PCI: Setting latency timer of device 0000:02:00.0 to 64
+      Jan  1 00:00:08           daemon          warn           kernel: wl: passivemode=1
+      Jan  1 00:00:08           daemon          warn           kernel: wl: napimode=0
+      Jan  1 00:00:08           daemon          warn           kernel: wl0: allocskbmode=1 currallocskbsz=256
+      Jan  1 00:00:08           daemon          warn           kernel: otp_read_pci: bad crc
+      Jan  1 00:00:08           daemon          warn           kernel: Neither SPROM nor OTP has valid image
+      Jan  1 00:00:08           daemon          warn           kernel: wl:srom/otp not programmed, using main memory mapped srom info(wombo board)
+      Jan  1 00:00:08           daemon          warn           kernel: wl:loading /etc/wlan/bcm43131_vars.bin
+      Jan  1 00:00:08           daemon          warn           kernel: Failed to open srom image from '/etc/wlan/bcm43131_vars.bin'.
+      Jan  1 00:00:08           daemon          warn           kernel: wl:loading /etc/wlan/bcm43131_map.bin
+      Jan  1 00:00:08           daemon          warn           kernel: wl0: Broadcom BCMa8db 802.11 Wireless Controller 5.100.138.2008.cpe4.12L06B.4
+      Jan  1 00:00:08           daemon          warn           kernel: Error: kerSysRegisterDyingGaspHandler: list head is null
+      Jan  1 00:00:08           daemon          info           kernel: Broadcom 802.1Q VLAN Interface, v0.1
+      Jan  1 00:00:08           daemon          warn           kernel: wait instruction: enabled
+      Jan  1 00:00:09           daemon          info           kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+      Jan  1 00:00:09           daemon          info           kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+      Jan  1 00:00:09           user            debug          udhcpd: udhcp server (v0.9.6) started
+      Jan  1 00:00:10           daemon          warn           kernel: Netfilter messages via NETLINK v0.30.
+      Jan  1 00:00:10           daemon          warn           kernel: nf_conntrack version 0.5.0 (492 buckets, 1968 max)
+      Jan  1 00:00:11           daemon          info           kernel: device eth0 entered promiscuous mode
+      Jan  1 00:00:11           daemon          info           radvd[388]: version 1.8 started
+      Jan  1 00:00:11           daemon          info           radvd[388]: attempting to reread config file
+      Jan  1 00:00:11           daemon          info           radvd[388]: resuming normal operation
+      Jan  1 00:00:11           daemon          info           kernel: ADDRCONF(NETDEV_UP): eth0: link is not ready
+      Jan  1 00:00:11           daemon          info           radvd[388]: attempting to reread config file
+      Jan  1 00:00:11           daemon          info           radvd[388]: resuming normal operation
+      Jan  1 00:00:11           daemon          info           kernel: device eth1 entered promiscuous mode
+      Jan  1 00:00:11           daemon          info           radvd[388]: attempting to reread config file
+      Jan  1 00:00:11           daemon          info           radvd[388]: resuming normal operation
+      Jan  1 00:00:11           daemon          warn           radvd[388]: poll error: Interrupted system call
+      Jan  1 00:00:11           daemon          warn           radvd[388]: Exiting, sigterm received.
+      Jan  1 00:00:11           daemon          info           radvd[424]: version 1.8 started
+      Jan  1 00:00:12           daemon          info           radvd[424]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           radvd[424]: resuming normal operation
+      Jan  1 00:00:12           daemon          info           radvd[424]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           kernel: ADDRCONF(NETDEV_UP): eth1: link is not ready
+      Jan  1 00:00:12           daemon          info           radvd[424]: resuming normal operation
+      Jan  1 00:00:12           daemon          info           kernel: device eth2 entered promiscuous mode
+      Jan  1 00:00:12           daemon          info           radvd[424]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           radvd[424]: resuming normal operation
+      Jan  1 00:00:12           daemon          warn           radvd[424]: poll error: Interrupted system call
+      Jan  1 00:00:12           daemon          warn           radvd[424]: Exiting, sigterm received.
+      Jan  1 00:00:12           daemon          info           radvd[460]: version 1.8 started
+      Jan  1 00:00:12           daemon          info           radvd[460]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           radvd[460]: resuming normal operation
+      Jan  1 00:00:12           daemon          info           radvd[460]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           kernel: ADDRCONF(NETDEV_UP): eth2: link is not ready
+      Jan  1 00:00:12           daemon          info           radvd[460]: resuming normal operation
+      Jan  1 00:00:12           daemon          info           kernel: device eth3 entered promiscuous mode
+      Jan  1 00:00:12           daemon          info           radvd[460]: attempting to reread config file
+      Jan  1 00:00:12           daemon          info           radvd[460]: resuming normal operation
+      Jan  1 00:00:12           daemon          warn           radvd[460]: poll error: Interrupted system call
+      Jan  1 00:00:12           daemon          warn           radvd[460]: Exiting, sigterm received.
+      Jan  1 00:00:13           daemon          info           radvd[496]: version 1.8 started
+      Jan  1 00:00:13           daemon          info           radvd[496]: attempting to reread config file
+      Jan  1 00:00:13           daemon          info           radvd[496]: resuming normal operation
+      Jan  1 00:00:13           daemon          info           kernel: ADDRCONF(NETDEV_UP): eth3: link is not ready
+      Jan  1 00:00:13           daemon          info           radvd[496]: attempting to reread config file
+      Jan  1 00:00:13           daemon          info           radvd[496]: resuming normal operation
+      Jan  1 00:00:13           daemon          info           kernel: device wl0 entered promiscuous mode
+      Jan  1 00:00:13           daemon          info           radvd[496]: attempting to reread config file
+      Jan  1 00:00:13           daemon          info           radvd[496]: resuming normal operation
+      Jan  1 00:00:13           daemon          warn           radvd[496]: poll error: Interrupted system call
+      Jan  1 00:00:13           daemon          warn           radvd[496]: Exiting, sigterm received.
+      Jan  1 00:00:13           daemon          info           radvd[535]: version 1.8 started
+      Jan  1 00:00:13           daemon          info           radvd[535]: attempting to reread config file
+      Jan  1 00:00:13           daemon          info           radvd[535]: resuming normal operation
+      Jan  1 00:00:13           daemon          info           kernel: br0: port 5(wl0) entering forwarding state
+      Jan  1 00:00:13           daemon          info           radvd[535]: attempting to reread config file
+      Jan  1 00:00:13           daemon          info           radvd[535]: resuming normal operation
+      Jan  1 00:00:14           daemon          warn           radvd[535]: poll error: Interrupted system call
+      Jan  1 00:00:14           daemon          warn           radvd[535]: Exiting, sigterm received.
+      Jan  1 00:00:14           daemon          info           radvd[562]: version 1.8 started
+      Jan  1 00:00:14           daemon          warn           kernel: *** dslThread dslPid=571
+      Jan  1 00:00:14           daemon          warn           kernel: BcmAdsl_Initialize=0xC00C4188, g_pFnNotifyCallback=0xC00F2E24
+      Jan  1 00:00:14           daemon          warn           kernel: open error...
+      Jan  1 00:00:14           daemon          warn           kernel: AdslFileLoadImage name /etc/adsl/adsl_phy.bin
+      Jan  1 00:00:14           daemon          warn           kernel: pSdramPHY=0xA1FFFFF8, 0x1114791F 0xDEADBEEF
+      Jan  1 00:00:14           daemon          warn           kernel: *** XfaceOffset: 0x1C790 => 0x1C790 ***
+      Jan  1 00:00:14           daemon          warn           kernel: *** PhySdramSize got adjusted: 0x8F9D8 => 0xA561C ***
+      Jan  1 00:00:14           daemon          warn           kernel: AdslCoreSharedMemInit: shareMemSize=371136(371136)
+      Jan  1 00:00:14           daemon          warn           kernel: AdslCoreHwReset:  pLocSbSta=80518000 bkupThreshold=1600
+      Jan  1 00:00:14           daemon          warn           kernel: AdslCoreHwReset:  AdslOemDataAddr = 0xA1F84590
+      Jan  1 00:00:14           daemon          warn           kernel: ***BcmDiagsMgrRegisterClient: 0 ***
+      Jan  1 00:00:15           daemon          warn           kernel: Error: kerSysRegisterDyingGaspHandler: list head is null
+      Jan  1 00:00:15           daemon          warn           kernel: bcmxtmrt: PTM/ATM Non-Bonding Mode configured in system 
+      Jan  1 00:00:16           daemon          info           kernel: monitor task is initialized pid= 235 
+      Jan  1 00:00:17           daemon          info           radvd[562]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           radvd[562]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[562]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          info           radvd[562]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           kernel: br0: port 5(wl0) entering disabled state
+      Jan  1 00:00:17           daemon          info           radvd[562]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[562]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          info           radvd[562]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           kernel: device wl0 left promiscuous mode
+      Jan  1 00:00:17           daemon          info           kernel: br0: port 5(wl0) entering disabled state
+      Jan  1 00:00:17           daemon          info           radvd[562]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[562]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          info           kernel: device wl0 entered promiscuous mode
+      Jan  1 00:00:17           daemon          info           radvd[562]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           radvd[562]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[562]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          warn           radvd[562]: poll error: Interrupted system call
+      Jan  1 00:00:17           daemon          warn           radvd[562]: Exiting, sigterm received.
+      Jan  1 00:00:17           daemon          info           radvd[613]: version 1.8 started
+      Jan  1 00:00:17           daemon          warn           radvd[613]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          info           radvd[613]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           radvd[613]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[613]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:17           daemon          info           radvd[613]: attempting to reread config file
+      Jan  1 00:00:17           daemon          info           kernel: br0: port 5(wl0) entering forwarding state
+      Jan  1 00:00:17           daemon          info           radvd[613]: resuming normal operation
+      Jan  1 00:00:17           daemon          warn           radvd[613]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:18           daemon          warn           radvd[613]: poll error: Interrupted system call
+      Jan  1 00:00:18           daemon          warn           radvd[613]: Exiting, sigterm received.
+      Jan  1 00:00:18           daemon          info           radvd[642]: version 1.8 started
+      Jan  1 00:00:18           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           kernel: br0: port 5(wl0) entering disabled state
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:19           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:19           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:19           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:20           daemon          err            syslog: tr69c:error:20.202:updateTr69cCfgInfo:1151:could not build full path to (null)
+      Jan  1 00:00:20           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:20           daemon          info           kernel: device wl0 left promiscuous mode
+      Jan  1 00:00:20           daemon          info           kernel: br0: port 5(wl0) entering disabled state
+      Jan  1 00:00:20           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:20           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:20           daemon          info           kernel: device wl0 entered promiscuous mode
+      Jan  1 00:00:20           daemon          info           radvd[642]: attempting to reread config file
+      Jan  1 00:00:20           daemon          info           radvd[642]: resuming normal operation
+      Jan  1 00:00:20           daemon          warn           radvd[642]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:20           daemon          warn           radvd[642]: poll error: Interrupted system call
+      Jan  1 00:00:20           daemon          warn           radvd[642]: Exiting, sigterm received.
+      Jan  1 00:00:20           daemon          info           radvd[711]: version 1.8 started
+      Jan  1 00:00:20           daemon          warn           radvd[711]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:20           daemon          info           radvd[711]: attempting to reread config file
+      Jan  1 00:00:20           daemon          info           radvd[711]: resuming normal operation
+      Jan  1 00:00:20           daemon          warn           radvd[711]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:20           daemon          info           kernel: br0: port 5(wl0) entering forwarding state
+      Jan  1 00:00:20           daemon          info           radvd[711]: attempting to reread config file
+      Jan  1 00:00:20           daemon          info           radvd[711]: resuming normal operation
+      Jan  1 00:00:20           daemon          warn           radvd[711]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:21           daemon          info           kernel: device wl0.1 entered promiscuous mode
+      Jan  1 00:00:21           daemon          info           radvd[711]: attempting to reread config file
+      Jan  1 00:00:21           daemon          info           radvd[711]: resuming normal operation
+      Jan  1 00:00:21           daemon          warn           radvd[711]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:21           daemon          info           radvd[711]: attempting to reread config file
+      Jan  1 00:00:21           daemon          info           radvd[711]: resuming normal operation
+      Jan  1 00:00:21           daemon          warn           radvd[711]: received RA from fe80::8e10:d4ff:fe45:bc1e
+      Jan  1 00:00:21           daemon          warn           radvd[711]: poll error: Interrupted system call
+      Jan  1 00:00:21           daemon          warn           radvd[711]: Exiting, sigterm received.
+      Jan  1 00:00:21           daemon          info           radvd[726]: version 1.8 started
+      Jan  1 00:00:21           daemon          info           radvd[726]: attempting to reread config file
+      Jan  1 00:00:21           daemon          info           radvd[726]: resuming normal operation
+      Jan  1 00:00:21           daemon          info           kernel: br0: port 6(wl0.1) entering forwarding state
+      Jan  1 00:00:21           daemon          info           radvd[726]: attempting to reread config file
+      Jan  1 00:00:21           daemon          info           radvd[726]: resuming normal operation
+      Jan  1 00:00:37           daemon          warn           radvd[726]: received RS from fe80::32fc:ebff:fe0b:b732
+      Jan  1 00:00:37           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:00:38           user            debug          udhcpd: sending OFFER of 192.168.254.1
+      Jan  1 00:00:38           user            debug          udhcpd: DHCPDISCOVER Vendor id option: android-dhcp-10 
+      Jan  1 00:00:38           user            debug          udhcpd: sending OFFER of 192.168.254.1
+      Jan  1 00:00:38           user            debug          udhcpd: DHCPREQUEST Vendor id option: android-dhcp-10 
+      Jan  1 00:00:38           user            debug          udhcpd: sending ACK to 192.168.254.1
+      Jan  1 00:01:29           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:01:45           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:02:01           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:02:48           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:02:51           daemon          warn           kernel: kerSysBackupPsiGet, strLen = 40960, offset = 0
+      Jan  1 00:04:16           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:05:00           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:06:34           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:08:24           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:09:24           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:10:17           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:11:25           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:12:36           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:13:19           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:14:22           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:15:10           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:15:29           daemon          warn           radvd[726]: received RS from fe80::58d7:cbff:fe17:f0eb
+      Jan  1 00:15:29           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:15:30           user            debug          udhcpd: sending OFFER of 192.168.254.2
+      Jan  1 00:15:30           user            debug          udhcpd: DHCPDISCOVER Vendor id option: android-dhcp-10 
+      Jan  1 00:15:30           user            debug          udhcpd: sending OFFER of 192.168.254.2
+      Jan  1 00:15:30           user            debug          udhcpd: DHCPREQUEST Vendor id option: android-dhcp-10 
+      Jan  1 00:15:30           user            debug          udhcpd: sending ACK to 192.168.254.2
+      Jan  1 00:16:09           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:17:16           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:17:28           daemon          warn           kernel: *** dslThread dslPid=571
+      Jan  1 00:17:28           daemon          warn           kernel: BcmAdsl_Initialize=0xC00C4188, g_pFnNotifyCallback=0xC00F2E24
+      Jan  1 00:17:28           daemon          warn           kernel: Error: kerSysRegisterDyingGaspHandler: list head is null
+      Jan  1 00:19:12           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:20:58           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:21:53           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:23:31           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:25:10           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:26:28           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:27:34           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:28:55           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:30:42           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:32:41           daemon          warn           radvd[726]: received RA from fe80::6810:d4ff:fe45:bc1c
+      Jan  1 00:33:23           daemon          err            syslog: httpd:error:3.265:cgiValidateSessionKey:2984:failed session key check.  Got 1771477081, expected 914830829, age=0 max=600000
+      Jan  1 00:33:55           daemon          warn           kernel: kerSysBackupPsiGet, strLen = 40960, offset = 0
+
+dmesg info:
+<5>Linux version 2.6.30 (jenkins@sz01017.ads.local) (gcc version 4.4.2 (Buildroot 2010.02-git) ) #1 Fri Jun 1 15:13:39 CST 2018
+<4>HS Serial flash device: name ID_W25X64, id 0xef17 size 8192KB
+<4>F@ST1704N prom init
+<6>CPU revision is: 00029033 (Broadcom BCM3302)
+<4>DSL SDRAM reserved: 0xc0000
+<4>crash log buf init,reg_base a0000000
+<6>Determined physical RAM map:
+<6> memory: 01ec0000 @ 00000000 (usable)
+<6> memory: 00080000 @ 01ec0000 (reserved)
+<4>Zone PFN ranges:
+<4>  DMA      0x00000000 -> 0x00001000
+<4>  Normal   0x00001000 -> 0x00001ec0
+<4>Movable zone start PFN for each node
+<4>early_node_map[1] active PFN ranges
+<4>    0: 0x00000000 -> 0x00001ec0
+<7>On node 0 totalpages: 7872
+<7>free_area_init_node: node 0, pgdat 802eb890, node_mem_map 81000000
+<7>  DMA zone: 32 pages used for memmap
+<7>  DMA zone: 0 pages reserved
+<7>  DMA zone: 4064 pages, LIFO batch:0
+<7>  Normal zone: 30 pages used for memmap
+<7>  Normal zone: 3746 pages, LIFO batch:0
+<4>Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 7810
+<5>Kernel command line: root=31:0 ro noinitrd console=ttyS0,115200
+<4>Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+<4>Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+<6>NR_IRQS:128
+<4>PID hash table entries: 128 (order: 7, 512 bytes)
+<6>console [ttyS0] enabled
+<6>Dentry cache hash table entries: 4096 (order: 2, 16384 bytes)
+<6>Inode-cache hash table entries: 2048 (order: 1, 8192 bytes)
+<6>Memory: 27860k/31488k available (2461k kernel code, 3628k reserved, 472k data, 124k init, 0k highmem)
+<6>Calibrating delay loop... 331.77 BogoMIPS (lpj=165888)
+<4>Mount-cache hash table entries: 512
+<6>--Kernel Config--
+<6>  SMP=0
+<6>  PREEMPT=0
+<6>  DEBUG_SPINLOCK=0
+<6>  DEBUG_MUTEXES=0
+<4>Broadcom Logger v0.1 Jun  1 2018 15:11:18
+<6>net_namespace: 1128 bytes
+<6>NET: Registered protocol family 16
+<4>Total Flash size: 8192K with 2048 sectors
+<4>registering PCI controller with io_map_base unset
+<4>registering PCI controller with io_map_base unset
+<4>bio: create slab <bio-0> at 0
+<6>pci 0000:01:00.0: PME# supported from D0 D3hot
+<6>pci 0000:01:00.0: PME# disabled
+<7>pci 0000:02:00.0: reg 10 64bit mmio: [0x000000-0x007fff]
+<7>pci 0000:02:00.0: supports D1 D2
+<6>pci 0000:01:00.0: PCI bridge, secondary bus 0000:02
+<6>pci 0000:01:00.0:   IO window: disabled
+<6>pci 0000:01:00.0:   MEM window: 0x10200000-0x102fffff
+<6>pci 0000:01:00.0:   PREFETCH window: disabled
+<4>PCI: Enabling device 0000:01:00.0 (0000 -> 0002)
+<7>PCI: Setting latency timer of device 0000:01:00.0 to 64
+<4>BLOG v3.0 Initialized
+<4>BLOG Rule v1.0 Initialized
+<4>Broadcom IQoS v0.1 Jun  1 2018 15:13:28 initialized
+<6>NET: Registered protocol family 8
+<6>NET: Registered protocol family 20
+<6>NET: Registered protocol family 2
+<6>IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+<6>TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+<6>TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+<6>TCP: Hash tables configured (established 1024 bind 1024)
+<6>TCP reno registered
+<6>NET: Registered protocol family 1
+<6>squashfs: version 4.0 (2009/01/31) Phillip Lougher
+<6>squashfs: version 4.0 with LZMA457 ported by BRCM
+<6>msgmni has been set to 54
+<6>io scheduler noop registered (default)
+<4>pcieport-driver 0000:01:00.0: device [14e4:6318] has invalid IRQ; check vendor BIOS
+<7>PCI: Setting latency timer of device 0000:01:00.0 to 64
+<6>PPP generic driver version 2.4.2
+<6>PPP Deflate Compression module registered
+<6>PPP BSD Compression module registered
+<6>NET: Registered protocol family 24
+<4>bcm963xx_mtd driver v1.0
+<4>File system address: 0xb8010100
+<4>brcmboard: brcm_board_init entry
+<4>SES: Button Interrupt 0x0 is enabled
+<4>SES: LED GPIO 0x8031 is enabled
+<6>Serial: BCM63XX driver $Revision: 3.00 $
+<6>Magic SysRq enabled (type ^ h for list of supported commands)
+<6>ttyS0 at MMIO 0xb0000100 (irq = 36) is a BCM63XX
+<4>bcmPktDmaBds_init: Broadcom Packet DMA BDs initialized
+<4>
+<4>bcmxtmrt: Broadcom BCM6318B0 ATM/PTM Network Device v0.5 Jun  1 2018 15:13:16
+<4>GACT probability NOT on
+<4>Mirror/redirect action on
+<4>u32 classifier
+<4>    input device check on 
+<4>    Actions configured 
+<6>GRE over IPv4 tunneling driver
+<6>TCP cubic registered
+<6>Initializing XFRM netlink socket
+<6>NET: Registered protocol family 10
+<6>IPv6 over IPv4 tunneling driver
+<6>NET: Registered protocol family 17
+<6>NET: Registered protocol family 15
+<6>Initializing MCPD Module
+<6>Ebtables v2.0 registered
+<6>ebt_time registered
+<6>ebt_ftos registered
+<6>ebt_wmm_mark registered
+<6>802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+<6>All bugs added by David S. Miller <davem@redhat.com>
+<4>VFS: Mounted root (squashfs filesystem) readonly on device 31:0.
+<6>Freeing unused kernel memory: 124k freed
+<4>chipinfo: module license 'proprietary' taints kernel.
+<4>Disabling lock debugging due to kernel taint
+<4>brcmchipinfo: brcm_chipinfo_init entry
+<4>NBUFF v1.0 Initialized
+<4>[0;36;44mInitialized fcache state[0m
+<4>Broadcom Packet Flow Cache  Char Driver v2.2 Jun  1 2018 15:11:34 Registered<242>
+<4>Created Proc FS /procfs/fcache
+<4>Broadcom Packet Flow Cache registered with netdev chain
+<4>[0;36;44mBroadcom Packet Flow Cache learning via BLOG enabled.[0m
+<4>Constructed Broadcom Packet Flow Cache v2.2 Jun  1 2018 15:11:34
+<4>bcmxtmcfg: bcmxtmcfg_init entry
+<4>adsl: adsl_init entry
+<4>Broadcom BCM6318B0 Ethernet Network Device v0.1 Jun  1 2018 15:13:11
+<4>ETH Init: Ch:0 - 200 tx BDs at 0xa19b7000
+<4>ETH Init: Ch:1 - 200 tx BDs at 0xa19ec000
+<4>ETH Init: Ch:0 - 400 rx BDs at 0xa19b9000
+<4>ETH Init: Ch:1 - 100 rx BDs at 0xa1235800
+<4>Error: kerSysRegisterDyingGaspHandler: list head is null
+<4>eth0: MAC Address: 8C:10:D4:45:BC:1E
+<4>eth1: MAC Address: 8C:10:D4:45:BC:1E
+<4>eth2: MAC Address: 8C:10:D4:45:BC:1E
+<4>eth3: MAC Address: 8C:10:D4:45:BC:1E
+<4>wl: high_wmark_tot=400
+<4>PCI: Enabling device 0000:02:00.0 (0000 -> 0002)
+<7>PCI: Setting latency timer of device 0000:02:00.0 to 64
+<4>wl: passivemode=1
+<4>wl: napimode=0
+<4>wl0: allocskbmode=1 currallocskbsz=256
+<4>otp_read_pci: bad crc
+<4>Neither SPROM nor OTP has valid image
+<4>wl:srom/otp not programmed, using main memory mapped srom info(wombo board)
+<4>wl:loading /etc/wlan/bcm43131_vars.bin
+<4>Failed to open srom image from '/etc/wlan/bcm43131_vars.bin'.
+<4>wl:loading /etc/wlan/bcm43131_map.bin
+<4>wl0: Broadcom BCMa8db 802.11 Wireless Controller 5.100.138.2008.cpe4.12L06B.4
+<4>Error: kerSysRegisterDyingGaspHandler: list head is null
+<6>Broadcom 802.1Q VLAN Interface, v0.1
+<4>wait instruction: enabled
+<6>ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>ip6_tables: (C) 2000-2006 Netfilter Core Team
+<4>Netfilter messages via NETLINK v0.30.
+<4>nf_conntrack version 0.5.0 (492 buckets, 1968 max)
+<6>device eth0 entered promiscuous mode
+<6>ADDRCONF(NETDEV_UP): eth0: link is not ready
+<6>device eth1 entered promiscuous mode
+<6>ADDRCONF(NETDEV_UP): eth1: link is not ready
+<6>device eth2 entered promiscuous mode
+<6>ADDRCONF(NETDEV_UP): eth2: link is not ready
+<6>device eth3 entered promiscuous mode
+<6>ADDRCONF(NETDEV_UP): eth3: link is not ready
+<6>device wl0 entered promiscuous mode
+<6>br0: port 5(wl0) entering forwarding state
+<4>*** dslThread dslPid=571
+<4>BcmAdsl_Initialize=0xC00C4188, g_pFnNotifyCallback=0xC00F2E24
+<4>open error...
+<4>AdslFileLoadImage name /etc/adsl/adsl_phy.bin
+<4>pSdramPHY=0xA1FFFFF8, 0x1114791F 0xDEADBEEF
+<4>*** XfaceOffset: 0x1C790 => 0x1C790 ***
+<4>*** PhySdramSize got adjusted: 0x8F9D8 => 0xA561C ***
+<4>AdslCoreSharedMemInit: shareMemSize=371136(371136)
+<4>AdslCoreHwReset:  pLocSbSta=80518000 bkupThreshold=1600
+<4>AdslCoreHwReset:  AdslOemDataAddr = 0xA1F84590
+<4>***BcmDiagsMgrRegisterClient: 0 ***
+<4>Error: kerSysRegisterDyingGaspHandler: list head is null
+<4>bcmxtmrt: PTM/ATM Non-Bonding Mode configured in system 
+<6>monitor task is initialized pid= 235 
+<6>br0: port 5(wl0) entering disabled state
+<6>device wl0 left promiscuous mode
+<6>br0: port 5(wl0) entering disabled state
+<6>device wl0 entered promiscuous mode
+<6>br0: port 5(wl0) entering forwarding state
+<6>br0: port 5(wl0) entering disabled state
+<6>device wl0 left promiscuous mode
+<6>br0: port 5(wl0) entering disabled state
+<6>device wl0 entered promiscuous mode
+<6>br0: port 5(wl0) entering forwarding state
+<6>device wl0.1 entered promiscuous mode
+<6>br0: port 6(wl0.1) entering forwarding state
+<4>kerSysBackupPsiGet, strLen = 40960, offset = 0
+<4>*** dslThread dslPid=571
+<4>BcmAdsl_Initialize=0xC00C4188, g_pFnNotifyCallback=0xC00F2E24
+<4>Error: kerSysRegisterDyingGaspHandler: list head is null
+<4>kerSysBackupPsiGet, strLen = 40960, offset = 0
+<4>kerSysBackupPsiGet, strLen = 40960, offset = 0
